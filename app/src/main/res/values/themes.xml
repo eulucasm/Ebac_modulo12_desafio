@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Desafiomodulodoze" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/grey_theme</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!--Config for Jokenpo Game-->
+    <style name="Theme.Desafiomodulodoze.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="ToolBarPopupStyle">
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--        <item name="popupMenuBackground">#FF798E91</item>-->
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="Theme.Desafiomodulodoze" parent="Base.Theme.Desafiomodulodoze" />
+
+    <style name="Theme.Desafiomodulodoze.AppOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Desafiomodulodoze.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+</resources>
